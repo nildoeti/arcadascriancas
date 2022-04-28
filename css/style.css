@@ -1,12 +1,18 @@
-header {
-	max-width: 1500px;
+/* Início da estilização do cabeçalho que inclui imagem, logo, menu */
+.cabecalho {
+    max-width: 1920px;
 }
 
-.img-header {
-	height: 600px;
-	width: 1500px;
+.imagem-cabecalho {
+    height: 1080px;
+    width: 1920;
 }
 
-.cb-space {
-	withe-space: nowrap;
+.largura-espaco-logo {
+    white-space: nowrap;
 }
+
+.estilo-bottom-menu {
+    bottom: -16px;
+}
+/* Fim da estilização do cabeçalho que inclui imagem, logo, menu */
