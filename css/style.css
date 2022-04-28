@@ -1,0 +1,12 @@
+header {
+	max-width: 1500px;
+}
+
+.img-header {
+	height: 600px;
+	width: 1500px;
+}
+
+.cb-space {
+	withe-space: nowrap;
+}
