@@ -1,3 +1,7 @@
+
+/* familia de fontes para todo o projeto */
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
 /* Início da estilização do cabeçalho que inclui imagem, logo, menu */
 .cabecalho {
     max-width: 1920px;
@@ -21,4 +25,13 @@
 .img_sobre {
      height: 100%;
      width: 100%;
+}
+
+/* estilização img do portfólio e botão */
+.img-portfolio {
+    width: 100%;
+}
+
+.portfolio-button {
+    margin-top: 64px;
 }
