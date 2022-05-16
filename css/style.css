@@ -1,37 +1,50 @@
 
-/* familia de fontes para todo o projeto */
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+	/* Início da estilização do cabeçalho que inclui imagem, logo, menu */
+	.cabecalho {
+	    max-width: 1920px;
+	}
 
-/* Início da estilização do cabeçalho que inclui imagem, logo, menu */
-.cabecalho {
-    max-width: 1920px;
+	.imagem-cabecalho {
+	    height: 1080px;
+	    width: 1920;
+	}
+
+	.largura-espaco-logo {
+	    white-space: nowrap;
+	}
+
+	.estilo-bottom-menu {
+	    bottom: -16px;
+	}
+
+
+/* Efeito Parallax */
+.bgimg-1, .bgimg-2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.imagem-cabecalho {
-    height: 1080px;
-    width: 1920;
+/* Imagem Parallax (Portfolio) */
+.bgimg-1 {
+	background-image: url("../img/cabecalho_arcadascriancas.jpg");
+	min-height: 400px;
 }
 
-.largura-espaco-logo {
-    white-space: nowrap;
+/* Imagem Parallax (Contato) */
+.bgimg-2 {
+	background-image: url("../img/cabecalho_arcadascriancas.jpg");
+	min-height: 400px;
 }
 
-.estilo-bottom-menu {
-    bottom: -16px;
-}
-/* Fim da estilização do cabeçalho que inclui imagem, logo, menu */
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
 
-/* image spbre  */
-.img_sobre {
-     height: 100%;
-     width: 100%;
-}
-
-/* estilização img do portfólio e botão */
-.img-portfolio {
-    width: 100%;
-}
-
-.portfolio-button {
-    margin-top: 64px;
+/* Parallax desativado para telas pequenas */
+@media only screen and (max-device-width: 1600px) {
+	.bgimg-1, .bgimg-2 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
 }
