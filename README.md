@@ -1,5 +1,5 @@
 # Arca Das Crianças
-Projeto pessoal com base no desafio do PI Grupo 005 - PJI240.
+Projeto base do desafio do PI Grupo 005 - PJI240.
 ### Nota importante
 Este projeto esta em desenvolvimento e deverá atender as seguintes caracteristicas.
 
@@ -11,7 +11,7 @@ Também deve ser um facilitador para a comunicação entre a ONG, responsáveis 
 comunidade.
 
 ## Objetivo
-Facilitar a busca e recuperação das informações, assim como assegurar a 
+Facilitar a busca e recuperação das informações, assim como assegurar a
 integridade dos dados, promovendo um canal de comunicação com a comunidade.
 
 
@@ -23,6 +23,8 @@ integridade dos dados, promovendo um canal de comunicação com a comunidade.
 - [HTML](https://www.w3.org/standards/webdesign/htmlcss)
 - [CSS3](https://www.cssportal.com/)
 - [Java Script](https://www.javascript.com/)
+- [Font Awesome](https://fontawesome.com/v4/icons/#new)
+- [Foot Google](https://fonts.googleapis.com/)
 
 
 ## Editor de código usado para o desenvolvimento do projeto
@@ -35,3 +37,7 @@ junto ao cliente e na web.
 
 
 ![Protótipo](./img/prototipo-projeto-arcadascriancas.jpg)
+
+## Link para demostração do prototipo
+
+Acesse a demostração deste prototipo [AQUI](https://webstack.com.br/projetos/arcadascriancas/).
