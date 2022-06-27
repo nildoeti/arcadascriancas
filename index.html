@@ -13,7 +13,7 @@
 
 <body>
 	<!-- Container (cabeçalho) -->
-	<header class="w3-display-container w3-content w3-center cabecalho">
+	<header class="w3-display-container w3-content w3-center cabecalho" id="home">
 		<img src="./img/cabecalho_arcadascriancas.jpg" alt="Imagem de 4 crianças" class=" w3-image " class="imagem-cabecalho">
 		<div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
 			<h1 class="w3-hide-medium w3-hide-small w3-xxx-large">ARCA DAS CRIANÇAS</h1>
@@ -23,29 +23,31 @@
 
 		<!-- Container (telas grandes) -->
 		<div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small estilo-bottom-menu">
-			<a href="#" class="w3-bar-item w3-button">Inicio</a>
-			<a href="#" class="w3-bar-item w3-button">Sobre</a>
-			<a href="#" class="w3-bar-item w3-button">Portfólio</a>
-			<a href="#" class="w3-bar-item w3-button">Contato</a>
+			<a href="#home" class="w3-bar-item w3-button">Inicio</a>
+			<a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+			<a href="#portifolio" class="w3-bar-item w3-button">Portfólio</a>
+			<a href="#contact" class="w3-bar-item w3-button">Contato</a>
+			<a href="https://cad-ong.herokuapp.com/" class="w3-bar-item w3-button">Área Restrita</a>
 		</div>
 	</header>
 
 	<!-- container (telas pequenas) -->
 	<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
 		<div class="w3-bar w3-light-grey">
-			<a href="#" class="w3-bar-item w3-button">Inicio</a>
-			<a href="#" class="w3-bar-item w3-button">Sobre</a>
-			<a href="#" class="w3-bar-item w3-button">Portfólio</a>
-			<a href="#" class="w3-bar-item w3-button">Contato</a>
+			<a href="#home" class="w3-bar-item w3-button">Inicio</a>
+			<a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+			<a href="#portifolio" class="w3-bar-item w3-button">Portfólio</a>
+			<a href="#contact" class="w3-bar-item w3-button">Contato</a>
+			<a href="https://cad-ong.herokuapp.com/" class="w3-bar-item w3-button">Área Restrita</a>
 		</div>
 	</div>
 	</header>
 
 	<!-- Container (sobre) -->
-	<div class="w3-content w3-container w3-padding-64" id="#">
+	<div class="w3-content w3-container w3-padding-64" id="sobre">
 		<h3 class="w3-center">QUEM SOMOS</h3>
 		<p class="w3-center"><em>Nossas ideias e atitudes projetam um mundo melhor</em></p>
-		<p align="justify">
+		<p align="center">
 			A Associação Filantrópica Arca das Crianças é uma organização não governamental, que trabalha para uma sociedade mais justa, atuando na educação de crianças, jovens e adolescentes que vivem em estado de vulnerabilidade.
 		</p>
 
@@ -58,7 +60,10 @@
 
 			<!-- Conteiner (oculto para dispositivos de telas pequenas) -->
 			<div class="w3-col m6 w3-hide-small w3-padding-large">
-				<p align="justify">A Associação Filantrópica Arca das Crianças, considera as crianças e adolescentes como sujeitos de direitos, em fase de desenvolvimento, na condição de vulnerabilidade, com direitos e deveres individuais e coletivos que devem ser resguardados. Nossa associação tem como objetivos, possibilitar que as crianças e adolescentes façam atividades educacionais em um ambiente seguro, evitando qualquer tipo de violência.</p>
+				<p align="justify">
+					Somos uma Instituição, sediada no Jd. Noronha Zona Sul da cidade de São Paulo, que atende crianças de 2 a 12 anos em contraturno escolar. Auxiliamos a comunidade fornecendo reforço escolar, recreação e alimentação durante os períodos da manhã e tarde.
+				</p>
+				<p align="justify">Venha conhecer o nosso projeto!</p> 
 			</div>
 		</div>
 
@@ -84,7 +89,7 @@
 	</div>
 
 	<!-- Container Parallax (texto do portfolio) -->
-	<div class="bgimg-1 w3-display-container w3-opacity-min">
+	<div class="bgimg-1 w3-display-container w3-opacity-min" id="portifolio">
 		<div class="w3-display-middle">
 			<span class="w3-xxlarge w3-text-white w3-wide">PORTFÓLIO</span>
 		</div>
@@ -92,16 +97,16 @@
 
 	<!-- Container (Portfólio) -->
 	<div class="w3-content w3-container w3-padding-64" id="#">
-		<h3 class="w3-center">NOSSAS REFERÊNCIAS</h3>
+		<h3 class="w3-center">NOSSO ESPAÇO</h3>
 		<p class="w3-center">
-			<em> Aqui estão alguns de nossos trabalhos junto a nossa comunidade.<br>
+			<em> Aqui estão algumas imagens de nosso espaço.<br>
 				Clique nas imagens para ampliá-las.</em>
 		</p><br>
 
 		<!-- Container (Grid de imagens com 4 colunas para tablets, laptops e desktops) -->
 		<div class="w3-row-padding w3-center">
 			<div class="w3-col m3">
-				<img src="./img/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="#">
+				<img src="./img/img1.jpeg" style="width:100%"  onclick="onClick(this)" class="w3-hover-opacity" alt="#">
 			</div>
 
 			<div class="w3-col m3">
@@ -109,29 +114,29 @@
 			</div>
 
 			<div class="w3-col m3">
-				<img src="./img/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+				<img src="./img/img2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
 			</div>
 
 			<div class="w3-col m3">
-				<img src="./img/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+				<img src="./img/img3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
 			</div>
 		</div>
 
 		<div class="w3-row-padding w3-center w3-section">
 			<div class="w3-col m3">
-				<img src="./img/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+				<img src="./img/img4.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
 			</div>
 
 			<div class="w3-col m3">
-				<img src="./img/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+				<img src="./img/img5.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
 			</div>
 
 			<div class="w3-col m3">
-				<img src="./img/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+				<img src="./img/img6.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
 			</div>
 
 			<div class="w3-col m3">
-				<img src="./img/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+				<img src="./img/img7.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
 			</div>
 			<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">VER MAIS</button>
 		</div>
